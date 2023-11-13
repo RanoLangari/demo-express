@@ -4,7 +4,7 @@ const db = mysql.createConnection({
   host: "",
   user: "root",
   password: "",
-  database: "demo-express",
+  database: "demo_express",
 });
 
 db.connect((err) => {
